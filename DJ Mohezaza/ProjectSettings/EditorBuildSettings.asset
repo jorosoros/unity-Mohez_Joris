@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldVanuitRoom2.unity
     guid: b90858580e3905547a0c68a93f76ad1e
+  - enabled: 1
+    path: Assets/Scenes/WorldVanuitRoom1.unity
+    guid: 908dc71ad3e0a9749a6629d549aa1a94
+  - enabled: 1
+    path: Assets/Scenes/UitlegScherm.unity
+    guid: d3d4c0b1b8e9cc945ab384d78d648a09
   m_configObjects: {}
