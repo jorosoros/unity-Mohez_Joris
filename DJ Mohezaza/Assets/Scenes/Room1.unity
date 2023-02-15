@@ -8728,9 +8728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - Mohez
-    - Gaan wij een tien halen of
-    - Gaan wij een tien halen?
+    - Hallo
+    - Welkom in het cafe
+    - Je kan hier eten, drinken en overnachten
 --- !u!61 &1302823322
 BoxCollider2D:
   m_ObjectHideFlags: 0

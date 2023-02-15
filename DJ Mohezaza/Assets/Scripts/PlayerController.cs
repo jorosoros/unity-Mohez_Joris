@@ -2,8 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum PlayerState
+{
+    walk,
+    attack,
+    interact
+}
+
 public class PlayerController : MonoBehaviour
 {
+
+
     public float moveSpeed;
 
     public float numberForColl;
@@ -22,6 +31,15 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    private IEnumerator AttackCo()
+    {
+        animator.SetBool("Attacking", true);
+        yield return null;
+        animator.SetBool("Attacking", false);
+        yield return new WaitForSeconds(.3f);
+    }
+
+
     public void HandleUpdate()
     {
         if (!isMoving)
@@ -31,6 +49,12 @@ public class PlayerController : MonoBehaviour
 
             //Debug.Log("This is input.x: " + input.x);
             //Debug.Log("This is input.y: " + input.y);
+
+            if (Input.GetButtonDown("attack"))
+            {
+                StartCoroutine(AttackCo());
+            }
+
 
             if (input.x != 0) input.y = 0;
 
