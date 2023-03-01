@@ -457,6 +457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 308452549}
   - component: {fileID: 308452550}
+  - component: {fileID: 308452551}
   m_Layer: 0
   m_Name: LeftHitbox
   m_TagString: Untagged
@@ -511,6 +512,18 @@ PolygonCollider2D:
       - {x: -0.8112034, y: -0.8034333}
       - {x: -0.21093357, y: -0.72523475}
       - {x: -0.42296386, y: 0.018573701}
+--- !u!114 &308452551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308452548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57c0bf2d8bfad04e95971a6c7a43fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &575385289
 GameObject:
   m_ObjectHideFlags: 0
@@ -38943,6 +38956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1469894762}
   - component: {fileID: 1469894763}
+  - component: {fileID: 1469894764}
   m_Layer: 0
   m_Name: UpHitbox
   m_TagString: Untagged
@@ -39000,6 +39014,18 @@ PolygonCollider2D:
       - {x: 0.52075994, y: -0.038224936}
       - {x: 0.61818314, y: 0.21152687}
       - {x: 0.57683134, y: 0.44306844}
+--- !u!114 &1469894764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469894761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57c0bf2d8bfad04e95971a6c7a43fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1652182178
 GameObject:
   m_ObjectHideFlags: 0
@@ -39243,9 +39269,10 @@ GameObject:
   - component: {fileID: 1687174549}
   - component: {fileID: 1687174548}
   - component: {fileID: 1687174551}
+  - component: {fileID: 1687174552}
   m_Layer: 7
   m_Name: Pot
-  m_TagString: Untagged
+  m_TagString: breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39363,6 +39390,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1687174552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687174547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67b54fa6e02cc0f48acf166aeec0ff38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1748654972
 GameObject:
   m_ObjectHideFlags: 0
@@ -39450,6 +39489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1806902548}
   - component: {fileID: 1806902549}
+  - component: {fileID: 1806902550}
   m_Layer: 0
   m_Name: RightHitbox
   m_TagString: Untagged
@@ -39507,6 +39547,18 @@ PolygonCollider2D:
       - {x: 0.4902063, y: -0.70289314}
       - {x: 0.7609345, y: -0.5911844}
       - {x: 0.7779076, y: -0.53997046}
+--- !u!114 &1806902550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806902547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57c0bf2d8bfad04e95971a6c7a43fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2050541908
 GameObject:
   m_ObjectHideFlags: 0
@@ -39517,6 +39569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2050541909}
   - component: {fileID: 2050541910}
+  - component: {fileID: 2050541911}
   m_Layer: 0
   m_Name: DownHitbox
   m_TagString: Untagged
@@ -39572,6 +39625,18 @@ PolygonCollider2D:
       - {x: 0.31705743, y: -1.0156783}
       - {x: 0.6380545, y: -1.0324352}
       - {x: 0.44278073, y: -0.47294527}
+--- !u!114 &2050541911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050541908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57c0bf2d8bfad04e95971a6c7a43fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2086207059
 GameObject:
   m_ObjectHideFlags: 0
