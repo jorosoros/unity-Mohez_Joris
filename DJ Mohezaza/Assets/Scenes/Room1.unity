@@ -8334,7 +8334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ad1b804de4e5e54a85cb97b2a258469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: WorldVanuitRoom1
+  sceneName: World
 --- !u!61 &773266650
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9318,6 +9318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9e860d950042e648a9a8739727aac2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  roomNummer: Room1
   moveSpeed: 5
   numberForColl: 0.2
   solidObjectsLayer:

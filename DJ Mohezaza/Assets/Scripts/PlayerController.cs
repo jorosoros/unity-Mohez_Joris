@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum PlayerState
 {
@@ -11,8 +13,6 @@ public enum PlayerState
 
 public class PlayerController : MonoBehaviour
 {
-
-
     public float moveSpeed;
 
     public float numberForColl;
@@ -39,7 +39,30 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(.3f);
     }
 
+    private void Start()
+    {
+        Debug.Log(SceneManager.GetActiveScene().name);
+        Debug.Log(Globals.previousLocation);
 
+
+        SetPlayerStartLocation();
+    }
+
+    private void SetPlayerStartLocation()
+    {
+        if (SceneManager.GetActiveScene().name == "World")
+        {
+            if (Globals.previousLocation == "Room1")
+            {
+                transform.position = new Vector2(-3.5f, 18);
+            }
+
+            else if (Globals.previousLocation == "Room2")
+            {
+                transform.position = new Vector2(-12.5f, 18);
+            }
+        }
+    }
     public void HandleUpdate()
     {
         if (!isMoving)
