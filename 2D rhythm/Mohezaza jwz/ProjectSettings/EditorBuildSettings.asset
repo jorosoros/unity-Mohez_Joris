@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Rhythm Game Tutorial/Scenes/Instructions.unity
     guid: 2766f54d38b33fd47847a85ece2ec5c5
   - enabled: 1
-    path: Assets/Rhythm Game Tutorial/Scenes/ZeldaLostWoods.unity
+    path: Assets/Rhythm Game Tutorial/Scenes/PokemonXYBoutique.unity
     guid: 0529fc88f8dbd0f43ba120347c536c58
   - enabled: 1
     path: Assets/Rhythm Game Tutorial/Scenes/Katanagatari.unity

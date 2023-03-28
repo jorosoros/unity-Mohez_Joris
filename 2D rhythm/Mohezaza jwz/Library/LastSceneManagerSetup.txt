@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Rhythm Game Tutorial/Scenes/ZeldaLostWoods.unity
+- path: Assets/Rhythm Game Tutorial/Scenes/PokemonXYBoutique.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

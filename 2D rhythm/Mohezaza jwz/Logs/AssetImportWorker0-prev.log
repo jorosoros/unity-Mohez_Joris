@@ -15,7 +15,7 @@ C:/Users/Leerling/Documents/GitHub/unity-Mohez_Joris/2D rhythm/Mohezaza jwz
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57838
+58319
 Successfully changed project path to: C:/Users/Leerling/Documents/GitHub/unity-Mohez_Joris/2D rhythm/Mohezaza jwz
 C:/Users/Leerling/Documents/GitHub/unity-Mohez_Joris/2D rhythm/Mohezaza jwz
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Leerling/Documents/GitHub/unity-Mohez_Joris/2D rhythm/Mohezaza jwz
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5740] Host "[IP] 10.100.226.26 [Port] 0 [Flags] 2 [Guid] 3085390636 [EditorId] 3085390636 [Version] 1048832 [Id] WindowsEditor(7,BUDYLAPTOP000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9724] Host "[IP] 10.100.226.26 [Port] 0 [Flags] 2 [Guid] 2973194666 [EditorId] 2973194666 [Version] 1048832 [Id] WindowsEditor(7,BUDYLAPTOP000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5740] Host "[IP] 10.100.226.26 [Port] 0 [Flags] 2 [Guid] 3085390636 [EditorId] 3085390636 [Version] 1048832 [Id] WindowsEditor(7,BUDYLAPTOP000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9724] Host "[IP] 10.100.226.26 [Port] 0 [Flags] 2 [Guid] 2973194666 [EditorId] 2973194666 [Version] 1048832 [Id] WindowsEditor(7,BUDYLAPTOP000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 431.45 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 138.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -67,87 +67,87 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.071435 seconds.
+Registered in 0.018896 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 299.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 111.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.417 seconds
+- Completed reload, in  2.023 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4424ms)
-		BeginReloadAssembly (530ms)
+	ReloadAssembly (2024ms)
+		BeginReloadAssembly (195ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (3147ms)
-			LoadAssemblies (518ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1490ms)
+			LoadAssemblies (188ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (766ms)
+			SetupTypeCache (696ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (170ms)
-			SetupLoadedEditorAssemblies (1746ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (592ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (134ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (300ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (1018ms)
-				ProcessInitializeOnLoadMethodAttributes (290ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (103ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.107685 seconds.
+Registered in 0.010917 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.402 seconds
+- Completed reload, in  3.289 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8407ms)
-		BeginReloadAssembly (925ms)
+	ReloadAssembly (3291ms)
+		BeginReloadAssembly (318ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (51ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (6749ms)
-			LoadAssemblies (659ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (2665ms)
+			LoadAssemblies (251ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1398ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (316ms)
-			SetupLoadedEditorAssemblies (4123ms)
+			SetupTypeCache (552ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (1683ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (468ms)
-				ProcessInitializeOnLoadAttributes (2600ms)
-				ProcessInitializeOnLoadMethodAttributes (955ms)
-				AfterProcessingInitializeOnLoad (59ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (1070ms)
+				ProcessInitializeOnLoadMethodAttributes (408ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (45ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
-Refreshing native plugins compatible for Editor in 10.74 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2466 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 62 unused Assets / (152.0 KB). Loaded Objects now: 2903.
 Memory consumption went from 96.3 MB to 96.1 MB.
-Total: 37.138700 ms (FindLiveObjects: 2.816700 ms CreateObjectMapping: 1.188900 ms MarkObjects: 32.454900 ms  DeleteObjects: 0.673000 ms)
+Total: 13.973000 ms (FindLiveObjects: 0.808100 ms CreateObjectMapping: 0.267500 ms MarkObjects: 12.596300 ms  DeleteObjects: 0.298400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,193 +159,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1221.513264 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Button11.png
-  artifactKey: Guid(b7b3370678c982e4484ad5c8fb41988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Button11.png using Guid(b7b3370678c982e4484ad5c8fb41988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff92e4e2a9774694b35165677080e2ac') in 1.333119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/GREAT.png
-  artifactKey: Guid(834b48b7042889549ab992ea913349af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/GREAT.png using Guid(834b48b7042889549ab992ea913349af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2eca364b992a2e474efdd1f966a330') in 0.203579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.078700 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Button14.png
-  artifactKey: Guid(c5bbbf6f2cd0e394c9eed0f0cb88a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Button14.png using Guid(c5bbbf6f2cd0e394c9eed0f0cb88a215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb949f310e346cf2220c6fac5a9c98e9') in 0.154205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.046101 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon11.png
-  artifactKey: Guid(434949c4d9c6817438552c565a8496db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon11.png using Guid(434949c4d9c6817438552c565a8496db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4825b0ed2abdb092cd875105666ccf65') in 0.260773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010368 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/PressedEffect.prefab
-  artifactKey: Guid(d5b52296adefc174f9641491e957f6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/PressedEffect.prefab using Guid(d5b52296adefc174f9641491e957f6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df56f4bec2011db1e4b2f102a74b150') in 0.510765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001315 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Button06.png
-  artifactKey: Guid(2abb5c3ed62fcf24bbbbe011bdcea29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Button06.png using Guid(2abb5c3ed62fcf24bbbbe011bdcea29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682041c925882a165fb20e6dbca8a7a7') in 0.350166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003569 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon36.png
-  artifactKey: Guid(fffcca4220e7cf1479bdc8261a5883f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon36.png using Guid(fffcca4220e7cf1479bdc8261a5883f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65898d18d656b178687a791b5a2f6ca6') in 0.378005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon21.png
-  artifactKey: Guid(9fbad5899e4c7184cb8f078f9c885e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon21.png using Guid(9fbad5899e4c7184cb8f078f9c885e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b0273bcf8d73b9f1d8136dff689a75') in 0.249890 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/CheckBox06.png
-  artifactKey: Guid(c29c5d10021751b469b1a375d72df9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/CheckBox06.png using Guid(c29c5d10021751b469b1a375d72df9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3bc9c8dff205f5cdd0eeb1df136760') in 0.415206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004752 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/ARROWS/up.png
-  artifactKey: Guid(a4576874a9ea85848935b469db950145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/ARROWS/up.png using Guid(a4576874a9ea85848935b469db950145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5087ac26bb5d950644ec2a07964ef8') in 0.286285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003039 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon01.png
-  artifactKey: Guid(e3e85da30ca99304996d4c1570686c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon01.png using Guid(e3e85da30ca99304996d4c1570686c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79ef9b830d04d7545482255db405361') in 0.258908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/HitEffect.prefab
-  artifactKey: Guid(aa411928796eaed4d99b0d027a867fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/HitEffect.prefab using Guid(aa411928796eaed4d99b0d027a867fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b2fc64a271bd114c130af8b05a5b51') in 0.419925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon29.png
-  artifactKey: Guid(531197bff607dbb4aa510ceb2542e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon29.png using Guid(531197bff607dbb4aa510ceb2542e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfe9cde6190a26b95f9a443e1c66ad4') in 0.308966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001352 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/CheckBox10.png
-  artifactKey: Guid(484ce69a5f9605044a63b559b7236328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/CheckBox10.png using Guid(484ce69a5f9605044a63b559b7236328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025ce361a3683191212ea4d4018ab7e4') in 0.268957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon25.png
-  artifactKey: Guid(f8f9fec34224892458c9c64d36ad421e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Icon25.png using Guid(f8f9fec34224892458c9c64d36ad421e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb39c38225752c797cd87a8da52244c7') in 0.250945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.013220 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/BAD.png
-  artifactKey: Guid(baed566b504fd7e429ceeb3805050d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/BAD.png using Guid(baed566b504fd7e429ceeb3805050d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2767cda3ae2c6ce39e846dc78072c4b2') in 0.453896 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.031600 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 3.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 10.047 seconds
-Domain Reload Profiling:
-	ReloadAssembly (10050ms)
-		BeginReloadAssembly (1628ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (75ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (381ms)
-		EndReloadAssembly (7169ms)
-			LoadAssemblies (1271ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2575ms)
-			ReleaseScriptCaches (9ms)
-			RebuildScriptCaches (459ms)
-			SetupLoadedEditorAssemblies (3189ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (93ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (4ms)
-				BeforeProcessingInitializeOnLoad (513ms)
-				ProcessInitializeOnLoadAttributes (1845ms)
-				ProcessInitializeOnLoadMethodAttributes (652ms)
-				AfterProcessingInitializeOnLoad (78ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (52ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 17.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2450 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 53 unused Assets / (127.3 KB). Loaded Objects now: 2934.
-Memory consumption went from 98.8 MB to 98.7 MB.
-Total: 24.674200 ms (FindLiveObjects: 1.152300 ms CreateObjectMapping: 0.459900 ms MarkObjects: 22.407000 ms  DeleteObjects: 0.651800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 27.366517 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/MissEffect.prefab
-  artifactKey: Guid(4302f49ea831e944d96dc15b3ad8cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/MissEffect.prefab using Guid(4302f49ea831e944d96dc15b3ad8cca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c37db79d00a079de850b2725caad5b') in 0.223512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Btn08.png
-  artifactKey: Guid(1e066d69aca8f644b95bd6dee6f8d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/Sprites/PNG/Btn08.png using Guid(1e066d69aca8f644b95bd6dee6f8d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2fe7f79493a6da02c11da6878c5594') in 0.134352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002786 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/PERFECT.png
-  artifactKey: Guid(80350f35d51db0e47bc8f160fe1c9a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/PERFECT.png using Guid(80350f35d51db0e47bc8f160fe1c9a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3ad880f6050c320f945f450d7b45b0') in 0.292887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/MISS.png
-  artifactKey: Guid(24cdf536b41884d4cb01991b698201cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/FinishedObjects/BeatEffects/MISS.png using Guid(24cdf536b41884d4cb01991b698201cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d70d206509c0c2788c5d2f4a0f25f46') in 0.098955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.272465 seconds.
-  path: Assets/Rhythm Game Tutorial/Music/04. 拍手喝采歌合 (TV Edit).mp3
-  artifactKey: Guid(4cc4d09cb2d8f6a449f6889ffc5d40b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/Music/04. 拍手喝采歌合 (TV Edit).mp3 using Guid(4cc4d09cb2d8f6a449f6889ffc5d40b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1014c543b43dd9c5d375fb3dd6951a5') in 0.430478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001735 seconds.
-  path: Assets/Rhythm Game Tutorial/Music/AlbumArtSmall.jpg
-  artifactKey: Guid(3bc0b4324dc36be4298d6ad7e875e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rhythm Game Tutorial/Music/AlbumArtSmall.jpg using Guid(3bc0b4324dc36be4298d6ad7e875e776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c917cdb4ced8e5e9e620bd62e2be4502') in 0.192645 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
