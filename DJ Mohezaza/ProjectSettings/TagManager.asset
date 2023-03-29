@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Activator
+  - breakable
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
+  - SolidObjects
+  - Interactable
   - 
   - 
   - 
@@ -44,4 +45,15 @@ TagManager:
     locked: 0
   - name: Arrows
     uniqueID: 885393115
+  - name: Background
+    uniqueID: 727199267
+    locked: 0
+  - name: Foreground
+    uniqueID: 2720128905
+    locked: 0
+  - name: Player
+    uniqueID: 3877113597
+    locked: 0
+  - name: Objects
+    uniqueID: 3740556483
     locked: 0
