@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Rhythm Game Tutorial/Scenes/PokemonXYBoutique.unity
+- path: Assets/Rhythm Game Tutorial/Scenes/Instructions.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

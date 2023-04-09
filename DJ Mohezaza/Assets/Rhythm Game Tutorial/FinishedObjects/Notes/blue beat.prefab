@@ -73,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -223880509
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cc7848ac605d67446b9d462ebd0dd201, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -100,16 +100,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canBePressed: 0
   keyToPress: 276
-  hitEffect: {fileID: 9125796703199373107, guid: aa411928796eaed4d99b0d027a867fbf,
-    type: 3}
-  goodEffect: {fileID: 265202820837817387, guid: 18f66ded8a6c2f849b3cce5ef4e22af9,
-    type: 3}
-  perfectEffect: {fileID: 1968220734068452104, guid: 044c1572f60cb6f4188fc1a41684751a,
-    type: 3}
-  missEffect: {fileID: 6731379315263024853, guid: 4302f49ea831e944d96dc15b3ad8cca7,
-    type: 3}
-  pressedEffect: {fileID: 5165062277099243424, guid: d5b52296adefc174f9641491e957f6ca,
-    type: 3}
+  hitEffect: {fileID: 9125796703199373107, guid: aa411928796eaed4d99b0d027a867fbf, type: 3}
+  goodEffect: {fileID: 265202820837817387, guid: 18f66ded8a6c2f849b3cce5ef4e22af9, type: 3}
+  perfectEffect: {fileID: 1968220734068452104, guid: 044c1572f60cb6f4188fc1a41684751a, type: 3}
+  missEffect: {fileID: 6731379315263024853, guid: 4302f49ea831e944d96dc15b3ad8cca7, type: 3}
+  pressedEffect: {fileID: 5165062277099243424, guid: d5b52296adefc174f9641491e957f6ca, type: 3}
 --- !u!58 &7903070283691861152
 CircleCollider2D:
   m_ObjectHideFlags: 0
