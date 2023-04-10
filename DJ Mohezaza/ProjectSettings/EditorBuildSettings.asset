@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Rhythm Game Tutorial/Scenes/ZeldaLostWoods 1.unity
+    guid: f149b1dd4a1a84141a97dcc0d064fde2
+  - enabled: 0
     path: Assets/Scenes/StartScherm.unity
     guid: 40a6ad4114c3e9b4da1fa78686a2112c
   - enabled: 1
@@ -20,10 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room2.unity
     guid: 1bad054bbac1c4041ac713d058e81e81
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WorldVanuitRoom2.unity
     guid: b90858580e3905547a0c68a93f76ad1e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WorldVanuitRoom1.unity
     guid: 908dc71ad3e0a9749a6629d549aa1a94
   - enabled: 1
