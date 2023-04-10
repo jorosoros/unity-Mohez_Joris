@@ -184,8 +184,7 @@ MonoBehaviour:
   m_text: Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db87e99f2b6c0d24494446f599647ed6, type: 2}
-  m_sharedMaterial: {fileID: 21921974905841576, guid: db87e99f2b6c0d24494446f599647ed6,
-    type: 2}
+  m_sharedMaterial: {fileID: 21921974905841576, guid: db87e99f2b6c0d24494446f599647ed6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -320,8 +319,7 @@ MonoBehaviour:
   m_text: DJ Mohezaza
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db87e99f2b6c0d24494446f599647ed6, type: 2}
-  m_sharedMaterial: {fileID: 21921974905841576, guid: db87e99f2b6c0d24494446f599647ed6,
-    type: 2}
+  m_sharedMaterial: {fileID: 21921974905841576, guid: db87e99f2b6c0d24494446f599647ed6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -590,8 +588,7 @@ MonoBehaviour:
   m_text: Quit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db87e99f2b6c0d24494446f599647ed6, type: 2}
-  m_sharedMaterial: {fileID: 21921974905841576, guid: db87e99f2b6c0d24494446f599647ed6,
-    type: 2}
+  m_sharedMaterial: {fileID: 21921974905841576, guid: db87e99f2b6c0d24494446f599647ed6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1451,8 +1448,7 @@ MonoBehaviour:
   m_text: Instructions
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db87e99f2b6c0d24494446f599647ed6, type: 2}
-  m_sharedMaterial: {fileID: 21921974905841576, guid: db87e99f2b6c0d24494446f599647ed6,
-    type: 2}
+  m_sharedMaterial: {fileID: 21921974905841576, guid: db87e99f2b6c0d24494446f599647ed6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
