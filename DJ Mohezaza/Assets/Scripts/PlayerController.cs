@@ -61,6 +61,16 @@ public class PlayerController : MonoBehaviour
             {
                 transform.position = new Vector2(-12.5f, 18);
             }
+
+            else if (Globals.previousLocation == "Room3")
+            {
+                transform.position = new Vector2(28.5f, 3);
+            }
+
+            else if (Globals.previousLocation == "Room4")
+            {
+                transform.position = new Vector2(7.5f, -34);
+            }
         }
     }
     public void HandleUpdate()
